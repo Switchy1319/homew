@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Barlow:wght@500;700;900&family=Hanken+Grotesk:wght@500;700;800&family=Kumbh+Sans:wght@400;700&family=Plus+Jakarta+Sans:wght@500;700;800&family=Poppins:wght@300;400;600&family=Red+Hat+Display:wght@500;900&family=Roboto:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Plus Jakarta Sans;
+    display: grid;
+    justify-content: center;
+}
+:root{
+    --gray :#666CA3;
+    --shavi: #13183F;
+    --otxmoci:#83869A;
+    --pink:#F74780;
+    --salmon:#FFA7C3;
+    --white:#FFFFFF;
+    --pinkrgb:linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+}
+header{
+    display: flex;
+}
+.main{
+    width: 375px;
+    border: 2px solid black;
+    background: linear-gradient(180deg, #FFF 0%, #F0F1FF 100%);
+}
+.our{
+    color: var(--otxmoci);
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 26px;
+    margin-left: 16px;
+}
+.skilled{
+    margin-top: 8px;
+    margin-left: 16px;
+}
+h1{
+    color: var(--shavi);
+    font-weight: 800;
+    font-size: 40px;
+    margin-left: 16px;
+    margin-top: 45px;
+}
+.get{
+    margin-top: 5px;
+    margin-left: 114px;
+    line-height: 45px;
+    background-color: var(--shavi);
+    width: 140px;
+    height: 48px;
+    color: var(--white);
+    border-radius: 28px;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+}
+.gett{
+    width: 167px;
+    height: 56px;
+    text-align: center;
+    margin-top: 24px;
+    margin-left: 16px;
+    line-height: 50px;
+    border-radius: 31.5px;
+    background: linear-gradient(180deg, #FF6F48 0.04%, #F02AA6 100%);    color: var(--white);
+}
+.ph{
+    width: 253px;
+    height: 253px;
+    border-radius: 158px;
+    background: linear-gradient(180deg, #FF6F48 0.04%, #F02AA6 100%);    color: var(--white);
+    overflow: hidden;
+    margin-top: 70px;
+    z-index: 1;
+}
+.imgg{
+    z-index: 2;
+    margin-top: 25px;
+    margin-left: 0;
+}
+.jcc{
+    display: grid;
+    justify-content: center;
+}
+.mem{
+    background-color: var(--white);
+    z-index: 5;
+    width: 105px;
+    height: 100px;
+    border-radius: 10px;
+    margin-left: 180px;
+    margin-top: -270px;
+    box-shadow: 0px 34px 54px 0px rgba(6, 22, 141, 0.16);
+}
+.memm{
+    background-color: var(--white);
+    width: 155px;
+    height: 100px;
+    z-index: 66;
+    border-radius: 10px;
+    margin-left: -40px;
+    margin-top: -80px;
+    box-shadow: 0px 34px 54px 0px rgba(6, 22, 141, 0.16);
+
+
+}
+h5{
+    color: var(--otxmoci);
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 28px;
+    margin-top: 15px;
+}
+h6{
+    color: var(--shavi);
+    font-size: 32px;
+    font-weight: 800;
+    text-align: center;
+}
+.check{
+    width: 343px;
+    height: 120px;
+    border-radius: 10px;
+    background: var(--Gradient-1, linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%));
+    margin-left: 16px;
+    margin-top: 50px;
+    display: grid;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+h2{
+    margin-top: 26px;
+    color: var(--white);
+    width: 286px;
+    line-height: 100pxs;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32px;
+}
+img{
+    margin-top: -22px;
+    margin-left: 30px;
+}
+h4{
+    color: var(--shavi);
+    font-weight: 800;
+    font-size: 26px;
+    margin-top: 16px;
+    margin-left: 28px;
+}
+p{
+    color: var(--otxmoci);
+    font-size: 16px;
+    width: 286px;
+    font-weight: 500;
+    margin-top: 16px;
+    margin-left: 28px;
+}
+.Started{
+    margin-top: 25px;
+    margin-left: 28px;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--pink);
+    margin-bottom: 40px;
+}
+.grid{
+    background-color: var(--white);
+    width: 343px;
+    border-radius: 20px;
+    margin-left: 16px;
+    box-shadow: 0px 25px 50px 0px rgba(6, 22, 141, 0.04);
+    margin-bottom: 40px;
+    height: 250px;
+}
+footer{
+    margin-top: 60px;
+    width: 375px;
+    height: 120px;
+    background-color: var(--shavi);
+    display: flex;
+}
+
+.Skiledd{
+    color: var(--white);
+    font-size: 28px;
+    font-weight: 800;
+}
+.getstarted{
+    color:var(--white);
+    width: 140px;
+    height: 48px;
+    background: var(--Gradient-2, linear-gradient(180deg, #4851FF 0%, #F02AA6 100%));
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 100px;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 40px;
+}
