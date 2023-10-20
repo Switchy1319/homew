@@ -1,0 +1,148 @@
+@media(width > 768px){
+    .main{
+        width: 800px;
+        overflow: hidden;
+        z-index: 5;
+        position: relative;
+    }
+    .pirveli{
+        display: flex;
+        flex-direction: row;
+    }
+    h1{
+        margin-top: 170px;
+        margin-bottom: 30px;
+    }
+    .skilled{
+        margin-left: 50px;
+    }
+    .get{
+        margin-left: 400px;
+    }
+    .rato{
+        width: 317px;
+        height: 700px;
+        background: var(--Gradient-2, linear-gradient(180deg, #4851FF 0%, #F02AA6 100%));
+        display: block;
+        transform: rotate(45deg);
+        position: absolute;
+        
+        z-index: 1;
+        margin-left: 570px;
+        margin-top: -100px;
+    }
+    .meore{
+        display: grid;
+        grid-template-columns: auto auto;
+        margin-top: 150px;
+    }
+    .check{
+        height: 250px;
+        margin-top: 0;
+        line-height: px;
+    }
+    h2{
+        margin-top: 50px;
+        margin-left: 40px;
+
+    }
+    .jcc{
+        margin-left: 15px;
+        margin-top: 150px;
+        background: linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+        height: 500px;
+        border-radius: 150px;
+        overflow: hidden;
+        z-index: 800;
+    }
+    .ph{
+        height: 400px;
+    }
+    footer{
+        width: 800px;
+        z-index: 5;
+    }
+    .getstarted{
+        margin-top: 0;
+        margin-left: 450px;
+        margin-top: 40px;
+    }
+    .Skiledd{
+        margin-left: 50px;
+        margin-top: 40px;
+    }
+    .ph{
+        display: none;
+    }
+    .ph2{display: block;
+        margin-top: 125px;
+        border-radius: 200px;
+    }
+    .raxdeba{
+        height: 400px;
+    }
+    .memm{
+        z-index: 900;
+        position: absolute;
+        margin-top: 300px;
+        margin-left: -100px;
+    }
+    .mem{
+        position: absolute;
+        margin-top: 125px;
+        margin-left: 250px;
+    }
+    .pirveli{
+        margin-left: 50px;
+    }
+}
+@media(width > 1440px){
+    .main{
+        width: 1440px;
+    }
+
+    .meore{
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto;
+        row-gap: 20px;
+        margin-left: 120px;
+    }
+    .pirveli{
+        margin-left: 120px;
+    }
+    .skilled{
+        margin-left: 120px;
+    }
+    .jcc{
+        margin-left: 320px;
+    }
+    .rato{
+        margin-left: 1000px;
+    }
+    h1{
+        font-size: 56px;
+    }
+    .our{
+        width: 450px;
+    }
+    .get{
+        margin-left: 850px;
+    }
+    footer{
+        width: 1440px;
+    }
+    .Skiledd{
+        margin-left: 120px;
+    }
+    .getstarted{
+        margin-left: 900px;
+    }
+    .get:hover{
+        background-color: #666CA3;
+        
+    }
+
+    .gett:hover{
+        background-color: red;
+    }
+}

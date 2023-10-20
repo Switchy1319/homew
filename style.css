@@ -21,6 +21,9 @@ body{
 header{
     display: flex;
 }
+.rato{
+    display: none;
+}
 .main{
     width: 375px;
     border: 2px solid black;
@@ -36,6 +39,9 @@ header{
 .skilled{
     margin-top: 8px;
     margin-left: 16px;
+}
+.ph2{
+    display: none;
 }
 h1{
     color: var(--shavi);
