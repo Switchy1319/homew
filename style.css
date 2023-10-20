@@ -26,7 +26,6 @@ header{
 }
 .main{
     width: 375px;
-    border: 2px solid black;
     background: linear-gradient(180deg, #FFF 0%, #F0F1FF 100%);
 }
 .our{
